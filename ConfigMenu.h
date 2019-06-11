@@ -12,7 +12,7 @@
 #ifndef ConfigMenu_h
 #define ConfigMenu_h_
 
-#include <WS2812.h>
+#include <Arduino.h>
 enum ModeEnum {Mode_Running, Mode_Sleep, Mode_Config, Mode_Chatter}; 
 enum ConfigModeEnum {Config_VoiceChanger, Config_Bitcrusher, Config_Reverb, Config_MicSensitivity, Config_EffectsVolume, Config_SleepStart, Config_Last, Config_BatteryLevel}; 
 
